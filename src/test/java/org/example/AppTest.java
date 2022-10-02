@@ -33,7 +33,7 @@ class AppTest {
 
   @Test
   void successRunningOnSpring6() {
-    // o  r  g  /  e  x  a  m  p  l  e  /  ハ    ゙  リ    ュ   ー   オ    ブ        フ    ゙   ェ    ク   ト    /  シ   ゙   ト   ゙    ウ    シ   ャ    .  c  l  a  s  s
+    // o  r  g  /  e  x  a  m  p  l  e  /  ハ    ゙  リ    ュ   ー   オ    ブ        シ    ゙   ェ    ク   ト    /  シ   ゙   ト   ゙    ウ    シ   ャ    .  c  l  a  s  s
     // 6f,72,67,2f,65,78,61,6d,70,6c,65,2f,30cf,3099,30ea,30e5,30fc,30aa,30d5,3099,30b7,3099,30a7,30af,30c8,2f,30b7,3099,30c8,3099,30a6,30b7,30e3,2e,63,6c,61,73,73
     System.out.println(path.chars().mapToObj(Integer::toHexString).collect(Collectors.joining(",")));
 
