@@ -48,6 +48,9 @@
   
   <profiles>
     <profile>
+      <id>default</id>
+    </profile>
+    <profile>
       <id>spring6</id>
       <properties>
         <spring.version>6.0.0-SNAPSHOT</spring.version>
